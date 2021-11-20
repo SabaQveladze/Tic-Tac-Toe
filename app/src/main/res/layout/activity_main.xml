@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+    <Button
+        android:text="Reset Score"
+        android:backgroundTint="@color/purple_500"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:id="@+id/resetscore"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="First Player :"
+            android:textSize="27sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="25dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+           android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:text="0"
+            android:id="@+id/first0"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:text="Second Player :"
+        android:textSize="27sp"
+
+        android:layout_marginStart="25dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:text="0"
+        android:id="@+id/second0"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp" />
+
+    </LinearLayout>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:layout_margin="2dp"
+            android:textSize="40sp"
+
+            android:backgroundTint="#28FF00"
+            android:id="@+id/bn1"/>
+        <Button
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:layout_width="50pt"
+            android:textSize="40sp"
+            android:backgroundTint="#28FF00"
+            android:id="@+id/bn2"/>
+        <Button
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:backgroundTint="#28FF00"
+            android:layout_width="50pt"
+            android:textSize="40sp"
+            android:id="@+id/bn3"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:backgroundTint="#28FF00"
+            android:layout_margin="2dp"
+            android:textSize="40sp"
+            android:id="@+id/bn4"/>
+        <Button
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:backgroundTint="#28FF00"
+            android:layout_width="50pt"
+            android:textSize="40sp"
+            android:id="@+id/bn5"/>
+        <Button
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:backgroundTint="#28FF00"
+            android:layout_width="50pt"
+            android:textSize="40sp"
+            android:id="@+id/bn6"/>
+
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:backgroundTint="#28FF00"
+            android:layout_margin="2dp"
+            android:textSize="40sp"
+            android:id="@+id/bn7"/>
+        <Button
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:layout_width="50pt"
+            android:backgroundTint="#28FF00"
+            android:textSize="40sp"
+            android:id="@+id/bn8"/>
+        <Button
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:layout_width="50pt"
+            android:textSize="40sp"
+            android:backgroundTint="#28FF00"
+            android:id="@+id/bn9"/>
+    </TableRow>
+    <Button
+        android:backgroundTint="@color/teal_700"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:text="Play Again"
+        android:gravity="center"
+        android:id="@+id/bnPlay"
+        android:layout_marginHorizontal="100dp"/>
+
+</TableLayout>
+
+
